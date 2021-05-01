@@ -1,0 +1,5 @@
+Credentials cache: API:46CE786C-F72A-4419-B19E-5C04544E3A96
+        Principal: tsomeya@42TOKYO.JP
+
+  Issued                Expires               Principal
+Jan 11 20:09:54 2021  Jan 12 06:09:54 2021  krbtgt/42TOKYO.JP@42TOKYO.JP

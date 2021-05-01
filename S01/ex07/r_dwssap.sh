@@ -1,0 +1,1 @@
+cat /etc/passwd | awk "NR % 2 ==0" | awk '! /^#/' | sed 's/:.*$//' | rev  | sort -r | awk -v foo=$FT_LINE1 -v goo=$FT_LINE2 "NR==foo,NR==goo {print}" | tr "\n" "," | sed 's/\,/\, /g'  | sed 's/, $/\./' | tr -d "\n"
